@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Hello from './Hello.js';
 import 'tachyons';
+import App from './App.js';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Hello greetings={'React Ninja'} />, document.getElementById('root'));
+
+ReactDOM.render(
+<div>
+    <App/>
+</div>, document.getElementById('root'));
 registerServiceWorker();
